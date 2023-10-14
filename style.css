@@ -5,55 +5,23 @@ body {
     padding: 0;
 }
 
-/* 头部样式 */
-header {
-    background-color: #333;
-    color: #FFF;
+/* 公告面板样式 */
+.announcement-panel {
+    background-color: #f2f2f2;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-header nav ul li a {
-    color: #FFF;
-    text-decoration: none;
-}
-
-/* 主内容样式 */
-section {
-    padding: 20px;
-}
-
-section h2 {
+.announcement-panel h2 {
     margin-top: 0;
 }
 
-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-section ul li {
-    margin-bottom: 10px;
-}
-
-/* 底部样式 */
-footer {
-    background-color: #333;
-    color: #FFF;
+/* 留言面板样式 */
+.message-panel {
+    background-color: #e6e6e6;
     padding: 20px;
-    text-align: center;
+}
+
+.message-panel h2 {
+    margin-top: 0;
 }
